@@ -11,14 +11,14 @@ import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-public class DirtLoose extends FallingBlock {
+public class CobbleLoose extends FallingBlock {
 
-    public DirtLoose() {
-        super(Properties.of(Material.DIRT, MaterialColor.DIRT).sound(SoundType.GRAVEL).strength(0.25f));
+    public CobbleLoose() {
+        super(Properties.of(Material.DIRT, MaterialColor.STONE).sound(SoundType.GRAVEL).strength(1.5f));
     }
 
     @OnlyIn(Dist.CLIENT)
     public static void registerRenderLayer() {
-        ItemBlockRenderTypes.setRenderLayer(NodeCoreBlocks.DIRT_LOOSE.get(), renderType -> renderType == RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(NodeCoreBlocks.COBBLE_LOOSE.get(), renderType -> renderType == RenderType.translucent());
     }
 }

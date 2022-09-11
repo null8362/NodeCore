@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/block",
+	"parent": "minecraft:block/block",
 	"textures": {
 		"0": "nodecore:block/loose",
-		"1": "block/dirt",
-		"particle": "nodecore:block/loose"
+		"1": "minecraft:block/dirt",
+		"particle": "minecraft:block/dirt"
 	},
 	"elements": [
 		{

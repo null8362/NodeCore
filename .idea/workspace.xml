@@ -5,68 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f051cdb-87c7-493c-aa11-aad3033f2fa2" name="Changes" comment="Another Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/com/mojang/blaze3d/font/GlyphProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/com/mojang/realmsclient/RealmsMainScreen$ShowPopupButton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/client/Options$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/client/gui/screens/achievement/StatsScreen$MobsStatisticsList$MobRow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/client/gui/screens/inventory/BeaconScreen$BeaconUpgradePowerButton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/client/gui/screens/worldselection/WorldPreset$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/client/renderer/entity/ItemRenderer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/client/renderer/texture/OverlayTexture.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/client/renderer/texture/TextureAtlasSprite$AnimatedTexture.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/commands/arguments/NbtPathArgument$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/locale/package-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/network/protocol/game/ServerboundChangeDifficultyPacket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/util/datafix/fixes/CavesAndCliffsRenames.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/util/datafix/schemas/V1929.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/util/datafix/schemas/V2688.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/world/entity/ai/behavior/Swim.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/world/entity/ai/goal/TemptGoal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/world/entity/boss/enderdragon/phases/DragonHoverPhase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/world/entity/raid/Raid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/world/inventory/ContainerListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/world/item/ItemStack$TooltipPart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/world/level/block/SeaPickleBlock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/world/level/block/StoneButtonBlock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/world/level/levelgen/NoiseChunk$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/world/level/levelgen/SurfaceRules$Condition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraft/world/level/storage/loot/providers/nbt/ContextNbtProvider$Serializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraftforge/client/event/RegisterClientCommandsEvent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraftforge/client/event/RenderLivingEvent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraftforge/common/world/ForgeWorldPreset.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraftforge/event/RegisterCommandsEvent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraftforge/event/RegistryEvent$IdMappingEvent$ModRemapping.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraftforge/event/entity/player/PlayerSetSpawnEvent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/_compileJava_2/net/minecraftforge/network/filters/NetworkFilters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/natives/OpenAL32.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/com/mojang/blaze3d/DontObfuscate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/com/mojang/realmsclient/client/RealmsClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/com/mojang/realmsclient/dto/WorldTemplatePaginatedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/advancements/critereon/LighthingBoltPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/client/gui/screens/SkinCustomizationScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/client/profiling/ClientMetricsSamplersProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/client/renderer/block/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/client/renderer/entity/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/client/resources/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/server/packs/metadata/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/util/profiling/jfr/parse/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/world/entity/ai/behavior/StrollToPoiList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/world/entity/ai/behavior/TryFindWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/world/entity/npc/Villager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/world/level/BlockEventData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/world/level/block/LayeredCauldronBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/world/level/block/state/StateDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/world/level/levelgen/NoiseGeneratorSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/world/level/levelgen/feature/SimpleBlockFeature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/world/level/levelgen/placement/PlacementModifierType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/world/level/storage/loot/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraft/world/level/storage/loot/functions/FunctionUserBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraftforge/common/extensions/IForgeMobEffectInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraftforge/common/extensions/IForgeTagAppender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraftforge/event/enchanting/EnchantmentLevelSetEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/expandedArchives/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar_77c3f23789b12f57701a70372e69a71e/net/minecraftforge/registries/tags/IReverseTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-19.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-20.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-21.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-22.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-23.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-24.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Cobble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/CobbleLoose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Stone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/api/MiningDecay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/api/Mining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Dirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Dirt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/DirtLoose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/DirtLoose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/init/NodeCoreBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/init/NodeCoreBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/block/dirt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/dirt_loose.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/dirt_loose.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,23 +83,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EWqdyKMmPBbZMu3DkEYwKpfAfm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/noahk/OneDrive/Documents/Code/Java/Mods/NodeCore&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/noahk/OneDrive/Documents/Code/Java/Mods/NodeCore",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\noahk\MCreatorWorkspaces\nodecore\src\main\resources\assets\minecraft" />
@@ -163,7 +132,7 @@
       <command value="ok" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.nodecore [runClient]">
     <configuration name="nodecore [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -185,9 +154,14 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar!/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.nodecore [runClient]" />
+        <item itemvalue="JAR Application.forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +203,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
