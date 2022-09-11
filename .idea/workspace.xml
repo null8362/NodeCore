@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f051cdb-87c7-493c-aa11-aad3033f2fa2" name="Changes" comment="Another Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-19.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-20.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-21.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-22.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-23.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-24.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Cobble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/CobbleLoose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Stone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-09-11_17.51.30-fml.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-09-11_17.53.55-fml.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-26.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-27.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-28.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-29.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-30.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-31.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-32.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/blockstates/cobble.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/blockstates/cobble_loose.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/blockstates/stone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/cobble.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/cobble_loose.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/stone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/item/cobble.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/item/cobble_loose.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/item/stone.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -26,12 +33,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/api/MiningDecay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/api/Mining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Dirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Dirt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/DirtLoose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/DirtLoose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-19.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-19.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-20.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-20.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-21.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-21.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-22.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-22.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-23.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-23.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-24.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-24.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-25.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-25.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/NodeCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/NodeCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Cobble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Cobble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/CobbleLoose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/CobbleLoose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Stone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Stone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/init/NodeCoreBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/init/NodeCoreBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/block/dirt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/dirt_loose.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/dirt_loose.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/init/NodeCoreItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/init/NodeCoreItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/nodecore/blockstates/dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/blockstates/dirt.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +112,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/noahk/OneDrive/Documents/Code/Java/Mods/NodeCore",
+    "last_opened_file_path": "C:/Users/noahk/OneDrive/Documents/Code/Java/Mods/NodeCore/src/main/resources/assets/nodecore/models/item",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -106,11 +121,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\noahk\OneDrive\Documents\Code\Java\Mods\NodeCore\src\main\resources\assets\nodecore\models\item" />
+      <recent name="C:\Users\noahk\OneDrive\Documents\Code\Java\Mods\NodeCore\src\main\resources\assets\nodecore\blockstates" />
+      <recent name="C:\Users\noahk\OneDrive\Documents\Code\Java\Mods\NodeCore\src\main\resources\assets\nodecore\models\block" />
       <recent name="C:\Users\noahk\MCreatorWorkspaces\nodecore\src\main\resources\assets\minecraft" />
       <recent name="C:\Users\noahk\MCreatorWorkspaces\nodecore\src\main\resources\assets\nodecore\textures\blocks" />
-      <recent name="C:\Users\noahk\MCreatorWorkspaces\nodecore\src\main\resources\assets\nodecore\models\item" />
-      <recent name="C:\Users\noahk\MCreatorWorkspaces\nodecore\src\main\resources\assets\nodecore\blockstates" />
-      <recent name="C:\Users\noahk\MCreatorWorkspaces\nodecore\src\main\resources\assets\nodecore\models\block" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\noahk\MCreatorWorkspaces\nodecore\src\main\resources\assets\minecraft\textures" />
@@ -188,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662857162593</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Another Commit">
+      <created>1662883024363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662883024363</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

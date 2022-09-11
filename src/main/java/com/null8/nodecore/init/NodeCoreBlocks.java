@@ -32,8 +32,11 @@ public class NodeCoreBlocks {
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
+			// Rendertype change (mainly for loose blocks with overlay)
 			ItemBlock.registerRenderLayer();
 			DirtLoose.registerRenderLayer();
+			CobbleLoose.registerRenderLayer();
+
 		}
 	}
 }

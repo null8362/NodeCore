@@ -48,7 +48,6 @@ public class NodeCore {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		NodeCoreBlocks.REGISTRY.register(bus);
 		NodeCoreItems.REGISTRY.register(bus);
-
 		NodeCoreBlockEntities.REGISTRY.register(bus);
 
 	}

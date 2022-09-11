@@ -17,7 +17,7 @@ import static com.null8.nodecore.api.Mining.replaceblock;
 public class Cobble extends FallingBlock {
 
     public Cobble() {
-        super(Properties.of(Material.STONE, MaterialColor.STONE).sound(SoundType.STONE).strength(2f, 6));
+        super(Properties.of(Material.STONE, MaterialColor.STONE).sound(SoundType.STONE).strength(1.5f, 6.0f));
     }
 
     public boolean onDestroyedByPlayer(BlockState state, Level level, BlockPos pos, Player player, boolean willHarvest, FluidState fluid) {

@@ -14,7 +14,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 public class CobbleLoose extends FallingBlock {
 
     public CobbleLoose() {
-        super(Properties.of(Material.DIRT, MaterialColor.STONE).sound(SoundType.GRAVEL).strength(1.5f));
+        super(Properties.of(Material.DIRT, MaterialColor.STONE).sound(SoundType.GRAVEL).strength(0.5f));
     }
 
     @OnlyIn(Dist.CLIENT)

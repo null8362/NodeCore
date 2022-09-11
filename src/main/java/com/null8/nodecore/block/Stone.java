@@ -18,7 +18,7 @@ import static com.null8.nodecore.api.Mining.replaceblock;
 public class Stone extends Block {
 
     public Stone() {
-        super(Properties.of(Material.STONE, MaterialColor.STONE).sound(SoundType.STONE).strength(2.5f, 6.0f));
+        super(Properties.of(Material.STONE, MaterialColor.STONE).sound(SoundType.STONE).strength(2.0f, 6.0f));
     }
 
     public boolean onDestroyedByPlayer(BlockState state, Level level, BlockPos pos, Player player, boolean willHarvest, FluidState fluid) {
