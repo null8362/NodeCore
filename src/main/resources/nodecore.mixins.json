@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.null8.nodecore.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

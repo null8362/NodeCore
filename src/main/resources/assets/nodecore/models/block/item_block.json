@@ -1,0 +1,8 @@
+{
+  "parent": "nodecore:custom/item",
+  "textures": {
+    "all": "nodecore:blocks/item_blank",
+    "particle": "nodecore:blocks/item_blank",
+    "0": "nodecore:blocks/item_blank"
+  }
+}

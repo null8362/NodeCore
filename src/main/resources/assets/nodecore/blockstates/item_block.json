@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nodecore:block/item_block"
+    }
+  }
+}

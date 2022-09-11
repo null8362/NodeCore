@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="nodecore"
+version="1.0.0"
+displayName="NodeCore"
+credits="Original Idea by Warr1024"
+displayURL=""
+authors="null8"
+description="NodeCore ported to Minecraft!"
+
+[[dependencies.nodecore]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
