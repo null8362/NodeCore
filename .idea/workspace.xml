@@ -4,26 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f051cdb-87c7-493c-aa11-aad3033f2fa2" name="Changes" comment="Another Commit">
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-09-11_17.51.30-fml.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-09-11_17.53.55-fml.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-26.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-27.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-28.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-29.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-30.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-31.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-32.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/blockstates/cobble.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/blockstates/cobble_loose.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/blockstates/stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/cobble.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/cobble_loose.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/item/cobble.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/item/cobble_loose.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/item/stone.json" afterDir="false" />
+    <list default="true" id="9f051cdb-87c7-493c-aa11-aad3033f2fa2" name="Changes" comment="Yet Another Commit">
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-33.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-34.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-11-35.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-10.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-11.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-12.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-14.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-15.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-16.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-17.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-18.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-8.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-12-9.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-10.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-11.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-12.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-13.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-14.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-15.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-16.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-09-13-9.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/TheWorldOfTestsV1_0/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/TheWorldOfTestsV1_0/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/GrassBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/core/particle.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/core/rendertype_armor_cutout_no_cull.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/core/rendertype_entity_cutout.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/core/rendertype_entity_cutout_no_cull.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/core/rendertype_entity_cutout_no_cull_z_offset.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/core/rendertype_entity_no_outline.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/core/rendertype_entity_solid.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/core/rendertype_entity_translucent.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/core/rendertype_entity_translucent_cull.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/core/rendertype_item_entity_translucent_cull.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/core/rendertype_leash.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/core/rendertype_text.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/shaders/include/light.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/texts/splashes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/block/dirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/block/grass_block_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/block/grass_block_side_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/block/grass_block_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/accessibility.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/checkbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/options_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/recipe_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/server_selection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/title/edition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/title/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/title/minecraft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/title/mojangstudios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/widgets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/blockstates/grass_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/grass_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/item/grass_block.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.lock" afterDir="false" />
@@ -40,13 +89,24 @@
       <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-23.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-23.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-24.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-24.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-25.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-25.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/NodeCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/NodeCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-26.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-26.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-27.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-27.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-28.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-28.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-29.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-29.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-30.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-30.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-31.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-31.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-09-11-32.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-09-11-32.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/api/Mining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/api/Mining.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Cobble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Cobble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/CobbleLoose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/CobbleLoose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Dirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Dirt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/DirtLoose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/DirtLoose.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Stone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/block/Stone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/init/NodeCoreBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/init/NodeCoreBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/init/NodeCoreItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/null8/nodecore/init/NodeCoreItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/nodecore/blockstates/dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/blockstates/dirt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/cobble_loose.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/nodecore/models/block/cobble_loose.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/shovel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +172,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/noahk/OneDrive/Documents/Code/Java/Mods/NodeCore/src/main/resources/assets/nodecore/models/item",
+    "last_opened_file_path": "C:/Users/noahk/OneDrive/Documents/Code/Java/Mods/NodeCore/src/main/resources/assets/minecraft/textures/gui/title",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -121,13 +181,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\noahk\OneDrive\Documents\Code\Java\Mods\NodeCore\src\main\resources\assets\minecraft\textures\gui\title" />
+      <recent name="C:\Users\noahk\OneDrive\Documents\Code\Java\Mods\NodeCore\src\main\resources\assets\minecraft\texts" />
       <recent name="C:\Users\noahk\OneDrive\Documents\Code\Java\Mods\NodeCore\src\main\resources\assets\nodecore\models\item" />
-      <recent name="C:\Users\noahk\OneDrive\Documents\Code\Java\Mods\NodeCore\src\main\resources\assets\nodecore\blockstates" />
       <recent name="C:\Users\noahk\OneDrive\Documents\Code\Java\Mods\NodeCore\src\main\resources\assets\nodecore\models\block" />
-      <recent name="C:\Users\noahk\MCreatorWorkspaces\nodecore\src\main\resources\assets\minecraft" />
-      <recent name="C:\Users\noahk\MCreatorWorkspaces\nodecore\src\main\resources\assets\nodecore\textures\blocks" />
+      <recent name="C:\Users\noahk\OneDrive\Documents\Code\Java\Mods\NodeCore\src\main\resources\assets\nodecore\blockstates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\noahk\OneDrive\Documents\Code\Java\Mods\NodeCore\src\main\resources\assets" />
       <recent name="C:\Users\noahk\MCreatorWorkspaces\nodecore\src\main\resources\assets\minecraft\textures" />
       <recent name="C:\Users\noahk\MCreatorWorkspaces\nodecore\src\main\resources\assets" />
       <recent name="C:\Users\noahk\MCreatorWorkspaces\nodecore\src\main\resources\data\nodecore" />
@@ -210,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662883024363</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Yet Another Commit">
+      <created>1662886165890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662886165890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +300,7 @@
     <MESSAGE value="." />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Another Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Another Commit" />
+    <MESSAGE value="Yet Another Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yet Another Commit" />
   </component>
 </project>

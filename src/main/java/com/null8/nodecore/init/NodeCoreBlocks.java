@@ -3,6 +3,7 @@ package com.null8.nodecore.init;
 import com.null8.nodecore.NodeCore;
 import com.null8.nodecore.block.*;
 
+import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,6 +22,7 @@ public class NodeCoreBlocks {
 
 	// cracky
 	public static final RegistryObject<Block> STONE = REGISTRY.register("stone", Stone::new);
+	public static final RegistryObject<Block> GRASS_BLOCK = REGISTRY.register("grass_block", GrassBlock::new);
 
 	// crumbly
 	public static final RegistryObject<Block> DIRT = REGISTRY.register("dirt", Dirt::new);
@@ -37,6 +39,17 @@ public class NodeCoreBlocks {
 			DirtLoose.registerRenderLayer();
 			CobbleLoose.registerRenderLayer();
 
+			GrassBlock.registerRenderLayer();
+		}
+
+		@SubscribeEvent
+		public static void blockColorLoad(ColorHandlerEvent.Block event) {
+			GrassBlock.blockColorLoad(event);
+		}
+
+		@SubscribeEvent
+		public static void itemColorLoad(ColorHandlerEvent.Item event) {
+			GrassBlock.itemColorLoad(event);
 		}
 	}
 }

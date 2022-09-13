@@ -18,15 +18,15 @@ public class Mining {
     }
 
     public static void cancelBreak(Block original, LevelAccessor world, BlockPos pos) {
-        //world.levelEvent(2001, pos, Block.getId(original.defaultBlockState()));
-        //world.setBlock(pos, original.defaultBlockState(), 3);
+        world.setBlock(pos, original.defaultBlockState(), 3);
     }
-
 
     public static boolean onDestroyedByPlayer(Block block, Block original, BlockState state, float threshold, Level level, BlockPos pos, Player player, boolean willHarvest) {
         float digSpeed = player.getDigSpeed(state, pos);
+        if (player.isCreative()) {digSpeed = 1.0f; willHarvest = true;}
+
         if (willHarvest) {
-            if (digSpeed <= threshold) {
+            if (digSpeed < threshold) {
                 replaceBlock(block, original, level, pos);
                 return false;
             } else {

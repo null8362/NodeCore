@@ -17,6 +17,7 @@ public class NodeCoreItems {
 	public static final RegistryObject<Item> ITEM_BLOCK = block(NodeCoreBlocks.ITEM_BLOCK, null);
 
 	public static final RegistryObject<Item> STONE = block(NodeCoreBlocks.STONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GRASS_BLOCK = block(NodeCoreBlocks.GRASS_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	public static final RegistryObject<Item> DIRT = block(NodeCoreBlocks.DIRT, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> DIRT_LOOSE = block(NodeCoreBlocks.DIRT_LOOSE, CreativeModeTab.TAB_BUILDING_BLOCKS);

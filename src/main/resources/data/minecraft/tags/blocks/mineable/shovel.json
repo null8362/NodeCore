@@ -3,6 +3,9 @@
   "values": [
     "nodecore:dirt",
     "nodecore:dirt_loose",
+    "nodecore:cobble_loose",
+    "nodecore:grass_block",
+
     "minecraft:clay",
     "minecraft:dirt",
     "minecraft:coarse_dirt",

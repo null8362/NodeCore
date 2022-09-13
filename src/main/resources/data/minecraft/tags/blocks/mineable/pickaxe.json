@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "nodecore:stone",
+    "nodecore:cobble",
+
     "minecraft:stone",
     "minecraft:granite",
     "minecraft:polished_granite",
