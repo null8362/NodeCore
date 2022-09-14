@@ -1,10 +1,15 @@
 {
   "replace": false,
   "values": [
-    "nodecore:dirt",
     "nodecore:dirt_loose",
     "nodecore:cobble_loose",
+    "nodecore:sand_loose",
+    "nodecore:gravel_loose",
+
     "nodecore:grass_block",
+    "nodecore:dirt",
+    "nodecore:gravel",
+    "nodecore:sand",
 
     "minecraft:clay",
     "minecraft:dirt",

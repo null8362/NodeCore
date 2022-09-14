@@ -62,6 +62,7 @@ dependencies {
 
     // Apply Mixin AP
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
 }
 
 tasks.withType(JavaCompile).configureEach {

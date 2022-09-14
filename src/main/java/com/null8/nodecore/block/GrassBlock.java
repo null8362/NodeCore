@@ -1,6 +1,7 @@
 
 package com.null8.nodecore.block;
 
+import com.null8.nodecore.api.SpreadingSnowyDirtBlockOverride;
 import com.null8.nodecore.init.NodeCoreBlocks;
 import com.null8.nodecore.init.NodeCoreItems;
 import net.minecraft.client.renderer.BiomeColors;
@@ -15,7 +16,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.GrassColor;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.BonemealableBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
@@ -23,7 +25,6 @@ import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConf
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -36,7 +37,7 @@ import java.util.Random;
 
 import static com.null8.nodecore.api.Mining.replaceblock;
 
-public class GrassBlock extends SpreadingSnowyDirtBlock implements BonemealableBlock {
+public class GrassBlock extends SpreadingSnowyDirtBlockOverride implements BonemealableBlock {
 
     public GrassBlock() {
         super(BlockBehaviour.Properties.of(Material.GRASS).randomTicks().requiresCorrectToolForDrops().strength(4f).sound(SoundType.GRASS));

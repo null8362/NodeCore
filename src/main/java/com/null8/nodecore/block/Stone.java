@@ -7,7 +7,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.FluidState;
@@ -24,7 +23,7 @@ import static com.null8.nodecore.api.Mining.replaceblock;
 public class Stone extends Block {
 
     public Stone() {
-        super(Properties.of(Material.STONE, MaterialColor.STONE).sound(SoundType.STONE).strength(2.0f, 6.0f));
+        super(Properties.of(Material.STONE, MaterialColor.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(2.0f, 6.0f));
     }
 
     @Override

@@ -1,15 +1,13 @@
 package com.null8.nodecore.init;
 
 import com.null8.nodecore.NodeCore;
-
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class NodeCoreItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, NodeCore.MODID);
@@ -24,6 +22,12 @@ public class NodeCoreItems {
 
 	public static final RegistryObject<Item> COBBLE = block(NodeCoreBlocks.COBBLE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> COBBLE_LOOSE = block(NodeCoreBlocks.COBBLE_LOOSE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+	public static final RegistryObject<Item> GRAVEL = block(NodeCoreBlocks.GRAVEL, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GRAVEL_LOOSE = block(NodeCoreBlocks.GRAVEL_LOOSE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+	public static final RegistryObject<Item> SAND = block(NodeCoreBlocks.SAND, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> SAND_LOOSE = block(NodeCoreBlocks.SAND_LOOSE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
