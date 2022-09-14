@@ -7,7 +7,7 @@
             "Name": "minecraft:oak_planks"
           },
           "input_predicate": {
-            "block": "minecraft:dirt_path",
+            "block": "nodecore:dirt_path",
             "predicate_type": "minecraft:block_match"
           },
           "location_predicate": {
@@ -20,10 +20,10 @@
             "Properties": {
               "snowy": "false"
             },
-            "Name": "minecraft:grass_block"
+            "Name": "nodecore:grass_block"
           },
           "input_predicate": {
-            "block": "minecraft:dirt_path",
+            "block": "nodecore:dirt_path",
             "probability": 0.1,
             "predicate_type": "minecraft:random_block_match"
           },
@@ -39,7 +39,7 @@
             "Name": "minecraft:water"
           },
           "input_predicate": {
-            "block": "minecraft:grass_block",
+            "block": "nodecore:grass_block",
             "predicate_type": "minecraft:block_match"
           },
           "location_predicate": {
@@ -55,7 +55,7 @@
             "Name": "minecraft:water"
           },
           "input_predicate": {
-            "block": "minecraft:dirt",
+            "block": "nodecore:dirt",
             "predicate_type": "minecraft:block_match"
           },
           "location_predicate": {

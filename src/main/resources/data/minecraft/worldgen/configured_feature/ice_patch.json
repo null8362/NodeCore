@@ -13,13 +13,13 @@
     "half_height": 1,
     "targets": [
       {
-        "Name": "minecraft:dirt"
+        "Name": "nodecore:dirt"
       },
       {
         "Properties": {
           "snowy": "false"
         },
-        "Name": "minecraft:grass_block"
+        "Name": "nodecore:grass_block"
       },
       {
         "Properties": {

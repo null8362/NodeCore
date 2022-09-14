@@ -5,7 +5,7 @@
     "valid_blocks": [
       "minecraft:netherrack",
       "minecraft:soul_sand",
-      "minecraft:gravel",
+      "nodecore:gravel",
       "minecraft:magma_block",
       "minecraft:blackstone"
     ],

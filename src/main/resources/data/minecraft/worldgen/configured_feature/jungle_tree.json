@@ -16,7 +16,7 @@
     "force_dirt": false,
     "dirt_provider": {
       "state": {
-        "Name": "minecraft:dirt"
+        "Name": "nodecore:dirt"
       },
       "type": "minecraft:simple_state_provider"
     },

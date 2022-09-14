@@ -11,7 +11,7 @@
     },
     "barrier": {
       "state": {
-        "Name": "minecraft:stone"
+        "Name": "nodecore:stone"
       },
       "type": "minecraft:simple_state_provider"
     }

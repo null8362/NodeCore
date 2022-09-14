@@ -18,7 +18,7 @@
               -1,
               0
             ],
-            "blocks": "minecraft:stone",
+            "blocks": "nodecore:stone",
             "type": "minecraft:matching_blocks"
           },
           {

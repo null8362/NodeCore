@@ -201,7 +201,7 @@
                         },
                         "then_run": {
                           "result_state": {
-                            "Name": "minecraft:gravel"
+                            "Name": "nodecore:gravel"
                           },
                           "type": "minecraft:block"
                         },
@@ -330,7 +330,7 @@
                         },
                         "then_run": {
                           "result_state": {
-                            "Name": "minecraft:gravel"
+                            "Name": "nodecore:gravel"
                           },
                           "type": "minecraft:block"
                         },
@@ -641,7 +641,7 @@
                   },
                   "then_run": {
                     "if_true": {
-                      "noise": "minecraft:gravel_layer",
+                      "noise": "nodecore:gravel_layer",
                       "min_threshold": -0.012,
                       "max_threshold": 1.7976931348623157E308,
                       "type": "minecraft:noise_threshold"
@@ -659,7 +659,7 @@
                           },
                           "then_run": {
                             "result_state": {
-                              "Name": "minecraft:gravel"
+                              "Name": "nodecore:gravel"
                             },
                             "type": "minecraft:block"
                           },
@@ -674,7 +674,7 @@
                           },
                           "then_run": {
                             "result_state": {
-                              "Name": "minecraft:gravel"
+                              "Name": "nodecore:gravel"
                             },
                             "type": "minecraft:block"
                           },

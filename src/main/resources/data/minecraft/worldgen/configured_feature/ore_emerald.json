@@ -12,11 +12,11 @@
       },
       {
         "target": {
-          "tag": "minecraft:deepslate_ore_replaceables",
+          "tag": "nodecore:stone_hard_ore_replaceables",
           "predicate_type": "minecraft:tag_match"
         },
         "state": {
-          "Name": "minecraft:deepslate_emerald_ore"
+          "Name": "nodecore:stone_hard_emerald_ore"
         }
       }
     ],

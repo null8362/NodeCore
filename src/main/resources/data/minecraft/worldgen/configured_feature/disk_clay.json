@@ -13,7 +13,7 @@
     "half_height": 1,
     "targets": [
       {
-        "Name": "minecraft:dirt"
+        "Name": "nodecore:dirt"
       },
       {
         "Name": "minecraft:clay"

@@ -1,7 +1,7 @@
 {
   "config": {
     "state": {
-      "Name": "minecraft:sand"
+      "Name": "nodecore:sand"
     },
     "radius": {
       "type": "minecraft:uniform",
@@ -13,13 +13,13 @@
     "half_height": 2,
     "targets": [
       {
-        "Name": "minecraft:dirt"
+        "Name": "nodecore:dirt"
       },
       {
         "Properties": {
           "snowy": "false"
         },
-        "Name": "minecraft:grass_block"
+        "Name": "nodecore:grass_block"
       }
     ]
   },

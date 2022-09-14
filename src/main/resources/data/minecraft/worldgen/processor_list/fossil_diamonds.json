@@ -8,7 +8,7 @@
       "rules": [
         {
           "output_state": {
-            "Name": "minecraft:deepslate_diamond_ore"
+            "Name": "nodecore:stone_hard_diamond_ore"
           },
           "input_predicate": {
             "block": "minecraft:coal_ore",

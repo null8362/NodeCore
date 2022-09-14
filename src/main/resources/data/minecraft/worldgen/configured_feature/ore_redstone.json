@@ -15,14 +15,14 @@
       },
       {
         "target": {
-          "tag": "minecraft:deepslate_ore_replaceables",
+          "tag": "nodecore:stone_hard_ore_replaceables",
           "predicate_type": "minecraft:tag_match"
         },
         "state": {
           "Properties": {
             "lit": "false"
           },
-          "Name": "minecraft:deepslate_redstone_ore"
+          "Name": "nodecore:stone_hard_redstone_ore"
         }
       }
     ],

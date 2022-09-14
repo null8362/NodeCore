@@ -205,7 +205,7 @@
                                   "Properties": {
                                     "snowy": "false"
                                   },
-                                  "Name": "minecraft:grass_block"
+                                  "Name": "nodecore:grass_block"
                                 },
                                 "type": "minecraft:block"
                               },
@@ -213,7 +213,7 @@
                             },
                             {
                               "result_state": {
-                                "Name": "minecraft:dirt"
+                                "Name": "nodecore:dirt"
                               },
                               "type": "minecraft:block"
                             }
@@ -464,7 +464,7 @@
                             },
                             "then_run": {
                               "result_state": {
-                                "Name": "minecraft:stone"
+                                "Name": "nodecore:stone"
                               },
                               "type": "minecraft:block"
                             },
@@ -472,7 +472,7 @@
                           },
                           {
                             "result_state": {
-                              "Name": "minecraft:gravel"
+                              "Name": "nodecore:gravel"
                             },
                             "type": "minecraft:block"
                           }
@@ -726,7 +726,7 @@
                               },
                               "then_run": {
                                 "result_state": {
-                                  "Name": "minecraft:stone"
+                                  "Name": "nodecore:stone"
                                 },
                                 "type": "minecraft:block"
                               },
@@ -791,7 +791,7 @@
                               },
                               "then_run": {
                                 "result_state": {
-                                  "Name": "minecraft:stone"
+                                  "Name": "nodecore:stone"
                                 },
                                 "type": "minecraft:block"
                               },
@@ -898,7 +898,7 @@
                                 },
                                 {
                                   "result_state": {
-                                    "Name": "minecraft:stone"
+                                    "Name": "nodecore:stone"
                                   },
                                   "type": "minecraft:block"
                                 }
@@ -935,7 +935,7 @@
                                         },
                                         "then_run": {
                                           "result_state": {
-                                            "Name": "minecraft:stone"
+                                            "Name": "nodecore:stone"
                                           },
                                           "type": "minecraft:block"
                                         },
@@ -943,7 +943,7 @@
                                       },
                                       {
                                         "result_state": {
-                                          "Name": "minecraft:gravel"
+                                          "Name": "nodecore:gravel"
                                         },
                                         "type": "minecraft:block"
                                       }
@@ -954,7 +954,7 @@
                                 },
                                 {
                                   "result_state": {
-                                    "Name": "minecraft:stone"
+                                    "Name": "nodecore:stone"
                                   },
                                   "type": "minecraft:block"
                                 }
@@ -979,7 +979,7 @@
                               },
                               "then_run": {
                                 "result_state": {
-                                  "Name": "minecraft:stone"
+                                  "Name": "nodecore:stone"
                                 },
                                 "type": "minecraft:block"
                               },
@@ -1016,7 +1016,7 @@
                                 },
                                 {
                                   "result_state": {
-                                    "Name": "minecraft:sand"
+                                    "Name": "nodecore:sand"
                                   },
                                   "type": "minecraft:block"
                                 }
@@ -1052,7 +1052,7 @@
                                 },
                                 {
                                   "result_state": {
-                                    "Name": "minecraft:sand"
+                                    "Name": "nodecore:sand"
                                   },
                                   "type": "minecraft:block"
                                 }
@@ -1070,7 +1070,7 @@
                             },
                             "then_run": {
                               "result_state": {
-                                "Name": "minecraft:stone"
+                                "Name": "nodecore:stone"
                               },
                               "type": "minecraft:block"
                             },
@@ -1097,7 +1097,7 @@
                               },
                               "then_run": {
                                 "result_state": {
-                                  "Name": "minecraft:stone"
+                                  "Name": "nodecore:stone"
                                 },
                                 "type": "minecraft:block"
                               },
@@ -1151,7 +1151,7 @@
                                     },
                                     "then_run": {
                                       "result_state": {
-                                        "Name": "minecraft:stone"
+                                        "Name": "nodecore:stone"
                                       },
                                       "type": "minecraft:block"
                                     },
@@ -1159,7 +1159,7 @@
                                   },
                                   {
                                     "result_state": {
-                                      "Name": "minecraft:gravel"
+                                      "Name": "nodecore:gravel"
                                     },
                                     "type": "minecraft:block"
                                   }
@@ -1177,7 +1177,7 @@
                               },
                               "then_run": {
                                 "result_state": {
-                                  "Name": "minecraft:stone"
+                                  "Name": "nodecore:stone"
                                 },
                                 "type": "minecraft:block"
                               },
@@ -1204,7 +1204,7 @@
                                         "Properties": {
                                           "snowy": "false"
                                         },
-                                        "Name": "minecraft:grass_block"
+                                        "Name": "nodecore:grass_block"
                                       },
                                       "type": "minecraft:block"
                                     },
@@ -1212,7 +1212,7 @@
                                   },
                                   {
                                     "result_state": {
-                                      "Name": "minecraft:dirt"
+                                      "Name": "nodecore:dirt"
                                     },
                                     "type": "minecraft:block"
                                   }
@@ -1233,7 +1233,7 @@
                                   },
                                   "then_run": {
                                     "result_state": {
-                                      "Name": "minecraft:stone"
+                                      "Name": "nodecore:stone"
                                     },
                                     "type": "minecraft:block"
                                   },
@@ -1241,7 +1241,7 @@
                                 },
                                 {
                                   "result_state": {
-                                    "Name": "minecraft:gravel"
+                                    "Name": "nodecore:gravel"
                                   },
                                   "type": "minecraft:block"
                                 }
@@ -1357,7 +1357,7 @@
                                 "Properties": {
                                   "snowy": "false"
                                 },
-                                "Name": "minecraft:grass_block"
+                                "Name": "nodecore:grass_block"
                               },
                               "type": "minecraft:block"
                             },
@@ -1365,7 +1365,7 @@
                           },
                           {
                             "result_state": {
-                              "Name": "minecraft:dirt"
+                              "Name": "nodecore:dirt"
                             },
                             "type": "minecraft:block"
                           }
@@ -1522,7 +1522,7 @@
                               },
                               "then_run": {
                                 "result_state": {
-                                  "Name": "minecraft:stone"
+                                  "Name": "nodecore:stone"
                                 },
                                 "type": "minecraft:block"
                               },
@@ -1581,7 +1581,7 @@
                         },
                         "then_run": {
                           "result_state": {
-                            "Name": "minecraft:stone"
+                            "Name": "nodecore:stone"
                           },
                           "type": "minecraft:block"
                         },
@@ -1622,7 +1622,7 @@
                             },
                             {
                               "result_state": {
-                                "Name": "minecraft:dirt"
+                                "Name": "nodecore:dirt"
                               },
                               "type": "minecraft:block"
                             }
@@ -1659,7 +1659,7 @@
                                 },
                                 {
                                   "result_state": {
-                                    "Name": "minecraft:stone"
+                                    "Name": "nodecore:stone"
                                   },
                                   "type": "minecraft:block"
                                 }
@@ -1696,7 +1696,7 @@
                                         },
                                         "then_run": {
                                           "result_state": {
-                                            "Name": "minecraft:stone"
+                                            "Name": "nodecore:stone"
                                           },
                                           "type": "minecraft:block"
                                         },
@@ -1704,7 +1704,7 @@
                                       },
                                       {
                                         "result_state": {
-                                          "Name": "minecraft:gravel"
+                                          "Name": "nodecore:gravel"
                                         },
                                         "type": "minecraft:block"
                                       }
@@ -1715,7 +1715,7 @@
                                 },
                                 {
                                   "result_state": {
-                                    "Name": "minecraft:stone"
+                                    "Name": "nodecore:stone"
                                   },
                                   "type": "minecraft:block"
                                 }
@@ -1740,7 +1740,7 @@
                               },
                               "then_run": {
                                 "result_state": {
-                                  "Name": "minecraft:stone"
+                                  "Name": "nodecore:stone"
                                 },
                                 "type": "minecraft:block"
                               },
@@ -1777,7 +1777,7 @@
                                 },
                                 {
                                   "result_state": {
-                                    "Name": "minecraft:sand"
+                                    "Name": "nodecore:sand"
                                   },
                                   "type": "minecraft:block"
                                 }
@@ -1813,7 +1813,7 @@
                                 },
                                 {
                                   "result_state": {
-                                    "Name": "minecraft:sand"
+                                    "Name": "nodecore:sand"
                                   },
                                   "type": "minecraft:block"
                                 }
@@ -1831,7 +1831,7 @@
                             },
                             "then_run": {
                               "result_state": {
-                                "Name": "minecraft:stone"
+                                "Name": "nodecore:stone"
                               },
                               "type": "minecraft:block"
                             },
@@ -1856,7 +1856,7 @@
                           },
                           "then_run": {
                             "result_state": {
-                              "Name": "minecraft:stone"
+                              "Name": "nodecore:stone"
                             },
                             "type": "minecraft:block"
                           },
@@ -1892,7 +1892,7 @@
                                     },
                                     "then_run": {
                                       "result_state": {
-                                        "Name": "minecraft:stone"
+                                        "Name": "nodecore:stone"
                                       },
                                       "type": "minecraft:block"
                                     },
@@ -1900,7 +1900,7 @@
                                   },
                                   {
                                     "result_state": {
-                                      "Name": "minecraft:gravel"
+                                      "Name": "nodecore:gravel"
                                     },
                                     "type": "minecraft:block"
                                   }
@@ -1918,7 +1918,7 @@
                               },
                               "then_run": {
                                 "result_state": {
-                                  "Name": "minecraft:stone"
+                                  "Name": "nodecore:stone"
                                 },
                                 "type": "minecraft:block"
                               },
@@ -1933,7 +1933,7 @@
                               },
                               "then_run": {
                                 "result_state": {
-                                  "Name": "minecraft:dirt"
+                                  "Name": "nodecore:dirt"
                                 },
                                 "type": "minecraft:block"
                               },
@@ -1951,7 +1951,7 @@
                                   },
                                   "then_run": {
                                     "result_state": {
-                                      "Name": "minecraft:stone"
+                                      "Name": "nodecore:stone"
                                     },
                                     "type": "minecraft:block"
                                   },
@@ -1959,7 +1959,7 @@
                                 },
                                 {
                                   "result_state": {
-                                    "Name": "minecraft:gravel"
+                                    "Name": "nodecore:gravel"
                                   },
                                   "type": "minecraft:block"
                                 }
@@ -1973,7 +1973,7 @@
                       },
                       {
                         "result_state": {
-                          "Name": "minecraft:dirt"
+                          "Name": "nodecore:dirt"
                         },
                         "type": "minecraft:block"
                       }
@@ -2059,7 +2059,7 @@
                   },
                   "then_run": {
                     "result_state": {
-                      "Name": "minecraft:stone"
+                      "Name": "nodecore:stone"
                     },
                     "type": "minecraft:block"
                   },
@@ -2094,7 +2094,7 @@
                       },
                       {
                         "result_state": {
-                          "Name": "minecraft:sand"
+                          "Name": "nodecore:sand"
                         },
                         "type": "minecraft:block"
                       }
@@ -2115,7 +2115,7 @@
                       },
                       "then_run": {
                         "result_state": {
-                          "Name": "minecraft:stone"
+                          "Name": "nodecore:stone"
                         },
                         "type": "minecraft:block"
                       },
@@ -2123,7 +2123,7 @@
                     },
                     {
                       "result_state": {
-                        "Name": "minecraft:gravel"
+                        "Name": "nodecore:gravel"
                       },
                       "type": "minecraft:block"
                     }
@@ -2140,7 +2140,7 @@
       },
       {
         "if_true": {
-          "random_name": "minecraft:deepslate",
+          "random_name": "nodecore:stone_hard",
           "true_at_and_below": {
             "absolute": 0
           },
@@ -2154,7 +2154,7 @@
             "Properties": {
               "axis": "y"
             },
-            "Name": "minecraft:deepslate"
+            "Name": "nodecore:stone_hard"
           },
           "type": "minecraft:block"
         },
@@ -2191,6 +2191,6 @@
     }
   },
   "default_block": {
-    "Name": "minecraft:stone"
+    "Name": "nodecore:stone"
   }
 }

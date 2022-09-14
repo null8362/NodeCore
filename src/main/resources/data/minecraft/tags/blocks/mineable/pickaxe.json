@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "nodecore:stone_hard",
     "nodecore:stone",
     "nodecore:cobble",
 
