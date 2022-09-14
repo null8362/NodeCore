@@ -3,6 +3,7 @@
 
   "block.nodecore.grass_block": "Grass Block",
   "block.nodecore.stone": "Stone",
+  "block.nodecore.stone_hard": "Hard Stone",
 
   "block.nodecore.dirt": "Dirt",
   "block.nodecore.dirt_loose": "Loose Dirt",

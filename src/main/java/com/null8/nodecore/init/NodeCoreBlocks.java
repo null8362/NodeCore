@@ -20,6 +20,7 @@ public class NodeCoreBlocks {
 
 	// cracky
 	public static final RegistryObject<Block> STONE = REGISTRY.register("stone", Stone::new);
+	public static final RegistryObject<Block> STONE_HARD = REGISTRY.register("stone_hard", StoneHard::new);
 	public static final RegistryObject<Block> GRASS_BLOCK = REGISTRY.register("grass_block", GrassBlock::new);
 
 	// crumbly
