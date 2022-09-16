@@ -16,7 +16,7 @@ vec4 minecraft_sample_lightmap(sampler2D lightMap, ivec2 uv) {
 	float blockLight = uv.x / 16.0;
 	float skyLight = uv.y / 16.0;
 	
-	float darknessMultiplier = ((blockLight / 10.0) + 0.3) * smoothstep(0.0, 7.0, blockLight); // Darker light levels are made more dark for a smoother transition.
+	float darknessMultiplier = ((blockLight / 10.0) + 0.3) * smoothstep(0.0, 7.0, blockLight); // Darker light levels are made more dark for a.json smoother transition.
 	vec4 darkColor = vec4(darknessMultiplier, darknessMultiplier, darknessMultiplier, 1.0);
 	
 	vec4 defaultLightColor = texture(lightMap, clamp(uv / 256.0, vec2(0.5 / 16.0), vec2(15.5 / 16.0))); // Gets what the light color would be in vanilla.
@@ -26,7 +26,7 @@ vec4 minecraft_sample_lightmap(sampler2D lightMap, ivec2 uv) {
 	float nightness = smoothstep(0.1, 0.25, skyLight15.r); // Gets how close to night it should be. Also helps with compatibility for different brightnesses.
 	float blockLightFlipped = 16.0 - blockLight; // Flips the block light value so I can use it in smoothstep without it freaking out on me.
 	vec4 nightColor = (vec4(0.2, 0.225, 0.275, 1.0) + vec4(nightness, nightness, nightness, 1.0)) * smoothstep(9.0, 16.0, blockLightFlipped); // The darkness the game adds at night.
-	nightColor = nightColor.r + darkColor.r > 1.0 ? vec4(1.0, 1.0, 1.0, 1.0) - vec4(darkColor.rgb, 0.0) : nightColor; // Prevents the night color from making the game brighter instead of darker, which would be a possibility.
+	nightColor = nightColor.r + darkColor.r > 1.0 ? vec4(1.0, 1.0, 1.0, 1.0) - vec4(darkColor.rgb, 0.0) : nightColor; // Prevents the night color from making the game brighter instead of darker, which would be a.json possibility.
 	nightness = 1.0 - nightness; // Flip nightness after its purpose in math is finished, to make it more human understandable.
 	
 	if (blockLight <= 7.0 && light0.r > 0.25) blockLight = 8.0; // If it's that bright at light level 0 IN VANILLA, you probably have night vision on.

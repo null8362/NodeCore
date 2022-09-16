@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "nodecore:block/log_oak_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "nodecore:block/log_oak"
+    },
+    "axis=z": {
+      "model": "nodecore:block/log_oak_horizontal",
+      "x": 90
+    }
+  }
+}

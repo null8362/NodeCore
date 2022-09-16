@@ -12,6 +12,9 @@
   "block.nodecore.sand": "Sand",
   "block.nodecore.sand_loose": "Loose Sand",
   "block.nodecore.cobble": "Cobble",
-  "block.nodecore.cobble_loose": "Loose Cobble"
+  "block.nodecore.cobble_loose": "Loose Cobble",
+  "block.nodecore.log_oak": "Oak Log",
+  "block.nodecore.leaves_oak": "Oak Leaves",
+  "block.nodecore.leaves_oak_loose": "Loose Oak Leaves"
 
 }

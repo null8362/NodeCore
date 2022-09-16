@@ -10,10 +10,10 @@ public final class Tags {
     public static final TagKey<Block> CRUMBLY  = create("material/crumbly");  // crumbles (dirt, sand)
     public static final TagKey<Block> CRACKY   = create("material/cracky");   // tough but crackable (stone, ores)
     public static final TagKey<Block> METALLIC = create("material/metallic"); // made from metals (iron, lode)
-    public static final TagKey<Block> SNAPPY   = create("material/snappy");   // cut using fine tools (leaves, small plants)
+    public static final TagKey<Block> SNAPPY   = create("material/snappy");   // cut using fine tools (Leaves, small plants)
     public static final TagKey<Block> CHOPPY   = create("material/choppy");   // can be cut using force (logs, planks)
     public static final TagKey<Block> EXPLODY  = create("material/explody");  // especially prone to explosions (plants, )
-    public static final TagKey<Block> WEAK     = create("material/weak");     // mineable by hand (leaves, rocks)
+    public static final TagKey<Block> WEAK     = create("material/weak");     // mineable by hand (Leaves, rocks)
 
     private static TagKey<Block> create(String location) {
         return TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(location));

@@ -1,11 +1,13 @@
 package com.null8.nodecore.api;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraftforge.registries.ForgeRegistries;
 
 public class Mining {
     public static void replaceBlock(Block block, Block original, LevelAccessor world, BlockPos pos) {
@@ -23,7 +25,7 @@ public class Mining {
 
     public static boolean onDestroyedByPlayer(Block block, Block original, BlockState state, float threshold, Level level, BlockPos pos, Player player, boolean willHarvest) {
         float digSpeed = player.getDigSpeed(state, pos);
-        if (player.isCreative()) {digSpeed = 1.0f; willHarvest = true;}
+        if (player.isCreative()) { digSpeed = 1.0f; willHarvest = true; }
 
         if (willHarvest) {
             if (digSpeed < threshold) {
@@ -41,5 +43,10 @@ public class Mining {
 
     public static boolean replaceblock(Block block, Block original, BlockState state, float threshold, Level level, BlockPos pos, Player player, boolean willHarvest) {
         return onDestroyedByPlayer(block, original, state, threshold, level, pos, player, willHarvest);
+    }
+
+
+    public static Block LooseVersion(Block original) {
+        return ForgeRegistries.BLOCKS.getValue(new ResourceLocation(original.getRegistryName() + "_loose"));
     }
 }

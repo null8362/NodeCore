@@ -95,7 +95,7 @@
             "Name": "minecraft:cobweb"
           },
           "input_predicate": {
-            "block": "minecraft:oak_log",
+            "block": "nodecore:log_oak",
             "probability": 0.05,
             "predicate_type": "minecraft:random_block_match"
           },

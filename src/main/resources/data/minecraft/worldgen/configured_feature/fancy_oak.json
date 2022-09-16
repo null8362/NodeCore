@@ -21,7 +21,7 @@
         "Properties": {
           "axis": "y"
         },
-        "Name": "minecraft:oak_log"
+        "Name": "nodecore:log_oak"
       },
       "type": "minecraft:simple_state_provider"
     },
@@ -37,7 +37,7 @@
           "persistent": "false",
           "distance": "7"
         },
-        "Name": "minecraft:oak_leaves"
+        "Name": "nodecore:leaves_oak"
       },
       "type": "minecraft:simple_state_provider"
     },

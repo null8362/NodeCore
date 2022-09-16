@@ -20,7 +20,7 @@
         "Properties": {
           "axis": "y"
         },
-        "Name": "minecraft:oak_log"
+        "Name": "nodecore:log_oak"
       },
       "type": "minecraft:simple_state_provider"
     },
