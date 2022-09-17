@@ -1,4 +1,3 @@
-
 package com.null8.nodecore.block.cracky;
 
 import com.null8.nodecore.init.NodeCoreBlocks;

@@ -5,7 +5,6 @@ import com.null8.nodecore.init.NodeCoreBlocks;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
@@ -24,6 +23,10 @@ public class GravelLoose extends UnstableBlock {
         super(Properties.of(Material.SAND, MaterialColor.STONE).randomTicks().sound(SoundType.GRAVEL).strength(0.6f));
     }
 
+    @OnlyIn(Dist.CLIENT)
+    public static void registerRenderLayer() {
+        ItemBlockRenderTypes.setRenderLayer(NodeCoreBlocks.GRAVEL_LOOSE.get(), renderType -> renderType == RenderType.translucent());
+    }
 
     @Override
     public @NotNull List<ItemStack> getDrops(@NotNull BlockState state, LootContext.@NotNull Builder builder) {
@@ -32,10 +35,5 @@ public class GravelLoose extends UnstableBlock {
         if (!dropsOriginal.isEmpty())
             return dropsOriginal;
         return Collections.singletonList(new ItemStack(this, 1));
-    }
-
-    @OnlyIn(Dist.CLIENT)
-    public static void registerRenderLayer() {
-        ItemBlockRenderTypes.setRenderLayer(NodeCoreBlocks.GRAVEL_LOOSE.get(), renderType -> renderType == RenderType.translucent());
     }
 }

@@ -40,14 +40,16 @@ public class SpreadingSnowyDirtBlockOverride extends SnowyDirtBlock {
 
     public void randomTick(BlockState p_56819_, ServerLevel p_56820_, BlockPos p_56821_, Random p_56822_) {
         if (!canBeGrass(p_56819_, p_56820_, p_56821_)) {
-            if (!p_56820_.isAreaLoaded(p_56821_, 1)) return; // Forge: prevent loading unloaded chunks when checking neighbor's light and spreading
+            if (!p_56820_.isAreaLoaded(p_56821_, 1))
+                return; // Forge: prevent loading unloaded chunks when checking neighbor's light and spreading
             p_56820_.setBlockAndUpdate(p_56821_, NodeCoreBlocks.DIRT.get().defaultBlockState());
         } else {
-            if (!p_56820_.isAreaLoaded(p_56821_, 3)) return; // Forge: prevent loading unloaded chunks when checking neighbor's light and spreading
+            if (!p_56820_.isAreaLoaded(p_56821_, 3))
+                return; // Forge: prevent loading unloaded chunks when checking neighbor's light and spreading
             if (p_56820_.getMaxLocalRawBrightness(p_56821_.above()) >= 9) {
                 BlockState blockstate = this.defaultBlockState();
 
-                for(int i = 0; i < 4; ++i) {
+                for (int i = 0; i < 4; ++i) {
                     BlockPos blockpos = p_56821_.offset(p_56822_.nextInt(3) - 1, p_56822_.nextInt(5) - 3, p_56822_.nextInt(3) - 1);
                     if (p_56820_.getBlockState(blockpos).is(NodeCoreBlocks.DIRT.get()) && canPropagate(blockstate, p_56820_, blockpos)) {
                         p_56820_.setBlockAndUpdate(blockpos, blockstate.setValue(SNOWY, p_56820_.getBlockState(blockpos.above()).is(Blocks.SNOW)));

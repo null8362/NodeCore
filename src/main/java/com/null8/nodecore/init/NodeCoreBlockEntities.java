@@ -13,12 +13,13 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class NodeCoreBlockEntities {
-	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, NodeCore.MODID);
-	public static final RegistryObject<BlockEntityType<?>> ITEM_BLOCK = register("item_block", NodeCoreBlocks.ITEM_BLOCK,
-			ItemBlock::new);
+    public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, NodeCore.MODID);
 
-	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
-			BlockEntityType.BlockEntitySupplier<?> supplier) {
-		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
-	}
+    private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
+                                                               BlockEntityType.BlockEntitySupplier<?> supplier) {
+        return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
+    }    public static final RegistryObject<BlockEntityType<?>> ITEM_BLOCK = register("item_block", NodeCoreBlocks.ITEM_BLOCK,
+            ItemBlock::new);
+
+
 }

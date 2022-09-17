@@ -33,26 +33,26 @@ import java.util.function.Supplier;
 
 @Mod("nodecore")
 public class NodeCore {
-	public static final Logger LOGGER = LogManager.getLogger(NodeCore.class);
-	public static final String MODID = "nodecore";
-	private static final String PROTOCOL_VERSION = "1";
-	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION,
-			PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
-	private static int messageID = 0;
+    public static final Logger LOGGER = LogManager.getLogger(NodeCore.class);
+    public static final String MODID = "nodecore";
+    private static final String PROTOCOL_VERSION = "1";
+    public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION,
+            PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
+    private static int messageID = 0;
 
-	public NodeCore() {
+    public NodeCore() {
 
-		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		NodeCoreBlocks.REGISTRY.register(bus);
-		NodeCoreItems.REGISTRY.register(bus);
-		NodeCoreBlockEntities.REGISTRY.register(bus);
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+        NodeCoreBlocks.REGISTRY.register(bus);
+        NodeCoreItems.REGISTRY.register(bus);
+        NodeCoreBlockEntities.REGISTRY.register(bus);
 
-	}
+    }
 
-	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,
-			BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
-		PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
-		messageID++;
-	}
+    public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,
+                                             BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
+        PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
+        messageID++;
+    }
 
 }

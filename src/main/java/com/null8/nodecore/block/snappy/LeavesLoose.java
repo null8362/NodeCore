@@ -1,22 +1,15 @@
 package com.null8.nodecore.block.snappy;
 
 import com.null8.nodecore.api.UnstableBlock;
-import com.null8.nodecore.init.NodeCoreBlocks;
+import com.null8.nodecore.api.Util;
 import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.core.BlockPos;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.GrassColor;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraftforge.api.distmarker.Dist;
@@ -27,29 +20,10 @@ import org.jetbrains.annotations.NotNull;
 import java.util.Collections;
 import java.util.List;
 
-import static com.null8.nodecore.api.Mining.LooseVersion;
-import static com.null8.nodecore.api.Mining.replaceblock;
-
-public class LeavesLoose extends UnstableBlock {
+public class LeavesLoose extends UnstableBlock implements net.minecraftforge.common.IForgeShearable {
 
     public LeavesLoose() {
-        super(Properties.of(Material.LEAVES).strength(0.2F).randomTicks().sound(SoundType.GRASS).noOcclusion().isValidSpawn(LeavesLoose::ocelotOrParrot).isSuffocating(LeavesLoose::never).isViewBlocking(LeavesLoose::never));
-    }
-
-    public static Boolean ocelotOrParrot(BlockState p_50822_, BlockGetter p_50823_, BlockPos p_50824_, EntityType<?> p_50825_) {
-        return p_50825_ == EntityType.OCELOT || p_50825_ == EntityType.PARROT;
-    }
-    public static boolean never(BlockState p_50806_, BlockGetter p_50807_, BlockPos p_50808_) {
-        return false;
-    }
-
-    @Override
-    public @NotNull List<ItemStack> getDrops(@NotNull BlockState state, LootContext.@NotNull Builder builder) {
-
-        List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-        if (!dropsOriginal.isEmpty())
-            return dropsOriginal;
-        return Collections.singletonList(new ItemStack(this, 1));
+        super(Properties.of(Material.LEAVES).randomTicks().sound(SoundType.GRASS).strength(0.25f).noOcclusion().isValidSpawn(Util::ocelotOrParrot).isSuffocating(Util::never).isViewBlocking(Util::never));
     }
 
     @OnlyIn(Dist.CLIENT)
@@ -69,5 +43,14 @@ public class LeavesLoose extends UnstableBlock {
     @OnlyIn(Dist.CLIENT)
     public static void registerRenderLayer(Block block) {
         ItemBlockRenderTypes.setRenderLayer(block, renderType -> renderType == RenderType.translucent());
+    }
+
+    @Override
+    public @NotNull List<ItemStack> getDrops(@NotNull BlockState state, LootContext.@NotNull Builder builder) {
+
+        List<ItemStack> dropsOriginal = super.getDrops(state, builder);
+        if (!dropsOriginal.isEmpty())
+            return dropsOriginal;
+        return Collections.singletonList(new ItemStack(this, 1));
     }
 }

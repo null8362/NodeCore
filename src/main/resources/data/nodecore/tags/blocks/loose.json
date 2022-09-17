@@ -4,6 +4,7 @@
     "nodecore:dirt_loose",
     "nodecore:gravel_loose",
     "nodecore:sand_loose",
-    "nodecore:cobble_loose"
+    "nodecore:cobble_loose",
+    "nodecore:leaves_oak_loose"
   ]
 }

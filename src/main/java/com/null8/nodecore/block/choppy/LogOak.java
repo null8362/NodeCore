@@ -1,4 +1,3 @@
-
 package com.null8.nodecore.block.choppy;
 
 import com.null8.nodecore.api.DirectionalFallingBlock;
@@ -6,7 +5,6 @@ import net.minecraft.core.Direction;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockState;
@@ -20,8 +18,6 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Collections;
 import java.util.List;
-
-import static net.minecraft.world.level.block.NetherPortalBlock.AXIS;
 
 public class LogOak extends DirectionalFallingBlock {
 
